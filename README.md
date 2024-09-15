@@ -1,4 +1,4 @@
-
+# Online Quiz Management System
 ### Admin
 - Create Admin account using command
 ```
@@ -45,16 +45,3 @@ py manage.py runserver
 ```
 http://127.0.0.1:8000/
 ```
-
-## CHANGES REQUIRED FOR CONTACT US PAGE
-- In settins.py file, You have to give your email and password
-```
-EMAIL_HOST_USER = 'youremail@gmail.com'
-EMAIL_HOST_PASSWORD = 'your email password'
-EMAIL_RECEIVING_USER = 'youremail@gmail.com'
-```
-
-## Drawbacks/LoopHoles
-- Admin/Teacher can add any number of questions to any course, But while adding course, admin provide question number.
-
-
